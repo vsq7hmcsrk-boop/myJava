@@ -4,12 +4,12 @@ public class code02_09 {
         int resAdd;
         int resSub;
         int resMul;
-        int resDiv;
+        double resDiv;
 
         resAdd = number1 + number2;
         resSub = number1 - number2;
         resMul = number1 = number2;
-        resDiv = number1 / number2;
+        resDiv = (double) number1 / number2;
 
         System.out.println(number1 + "+" + number2 + "=" + resAdd);
         System.out.println(number1 + "-" + number2 + "=" + resSub);
