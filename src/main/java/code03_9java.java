@@ -1,0 +1,12 @@
+public class code03_9java {
+    public static void main(String[] args) {
+        int num = 20;
+        num++ ; System.out.print(num+" ");
+        num-- ; System.out.print(num+" ");
+        num+- ; System.out.print(num+" ");
+        num*- ; System.out.print(num+" ");
+
+
+
+    }
+}
